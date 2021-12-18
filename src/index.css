@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'IBM Plex Sans KR', 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @apply bg-neutral-100 text-neutral-800 text-2xl;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  box-shadow: 0 -6px rgba(75, 112, 253, 0.3) inset;
+}
+
+hr {
+  @apply border-neutral-400;
+}
+
+.paper {
+  @apply rounded-xl bg-slate-200 p-8 shadow-xl;
+  min-height: 300px;
+  margin: 30px 5px 5px 0;
+  max-width: 450px;
+  min-width: 300px;
+}
+
+.paper-with {
+  @apply rounded-xl bg-slate-200 shadow-xl;
+  min-height: 300px;
+  margin-bottom: 20px;
+}
+
+.paper-with__skills-box {
+  @apply underline decoration-neutral-400 pl-3 pr-3 
+  underline-offset-8 indent-3 leading-loose;
+  min-width: 400px;
+  max-width: 900px;
+}
+
+.swiper {
+  max-width: 1000px;
+  max-height: 700px;
+}
+
+.swiper-slide {
+  @apply h-40 text-center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  max-height: 600px;
+  object-fit: fill;
+  border-radius: 50px;
+}
