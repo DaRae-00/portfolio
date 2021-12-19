@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.45cd47cd.css",
-    "main.js": "/static/js/main.125fb831.js",
+    "main.css": "/static/css/main.dc58d946.css",
+    "main.js": "/static/js/main.f7903632.js",
     "static/js/787.9b9c0edf.chunk.js": "/static/js/787.9b9c0edf.chunk.js",
     "static/media/darae.png": "/static/media/darae.b2d92bd0c0c461880eee.png",
     "static/media/pibo-main.png": "/static/media/pibo-main.e153267147c2b00c01b6.png",
@@ -14,12 +14,12 @@
     "static/media/tintec-main.png": "/static/media/tintec-main.a789c577589fa718ee7c.png",
     "static/media/tintec-2.png": "/static/media/tintec-2.440acbcd33a0dfdc5bb5.png",
     "index.html": "/index.html",
-    "main.45cd47cd.css.map": "/static/css/main.45cd47cd.css.map",
-    "main.125fb831.js.map": "/static/js/main.125fb831.js.map",
+    "main.dc58d946.css.map": "/static/css/main.dc58d946.css.map",
+    "main.f7903632.js.map": "/static/js/main.f7903632.js.map",
     "787.9b9c0edf.chunk.js.map": "/static/js/787.9b9c0edf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45cd47cd.css",
-    "static/js/main.125fb831.js"
+    "static/css/main.dc58d946.css",
+    "static/js/main.f7903632.js"
   ]
 }
