@@ -38,12 +38,13 @@ hr {
   @apply rounded-xl bg-slate-200 shadow-xl;
   min-height: 300px;
   margin-bottom: 20px;
+  max-width: 1400px;
+  min-width: 300px;
 }
 
 .paper-with__skills-box {
   @apply underline decoration-neutral-400 pl-3 pr-3 
   underline-offset-8 indent-3 leading-loose;
-  min-width: 400px;
   max-width: 900px;
 }
 

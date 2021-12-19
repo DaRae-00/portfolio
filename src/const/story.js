@@ -35,10 +35,10 @@ const story = {
     {
       link: 'https://m.circul.us/botstore',
       linkName: 'Circulus Web view Botstore',
-      text: `'파이보'라는 이름의 로봇 안에 들어가는 서비스 앱 '봇' 개발하였고, 사내 백오피스를 개발하였습니다.
+      text: `'파이보'라는 이름의 로봇 안에 들어가는 서비스 앱 '봇'을 개발하였고, 사내 백오피스를 개발하였습니다.
       회사의 개발인원이 5명이었기에 각자가 맡은 분야에 대해서는 기획부터 개발완료까지 스스로 진행했었어야 했었고, 
       제가 맡은 직무가 다양한 봇 서비스를 개발하는 것이었기에 서버에서 프론트에 이르기까지 다양한 기술들을 접해보았던 시기였습니다.
-      깊이있는 실력까진 얻지 못했으나 비전공자인 제게 개발의 흐름을 잡아주고, 스스로 개발 프로세스를 만들어 낼 수 있는 능력을 깆추게 했습니다.
+      깊이있는 실력까진 얻지 못했으나 비전공자인 제게 개발의 흐름을 잡아주고, 개발 프로세스를 만들어 낼 수 있는 능력을 갖추게 했습니다.
       `,
       images: ['pibo-main.png', 'pibo-1.png', 'pibo-2.png'],
       skills: {
@@ -51,12 +51,25 @@ const story = {
       link: 'https://darae-00.github.io',
       linkName: '포트폴리오',
       text: `현재 재직하고 있는 회사에서 vuejs를 사용하므로 포트폴리오는 react로 개발을 진행하였습니다.
-      css는 요즘 많은 사람들이 사용하는 Tailwindcss를 사용하였습니다.`,
+      css는 요즘 많은 사람들이 사용하는 TailwindCss를 사용하였습니다.`,
       images: ['pofol-main.png'],
       skills: {
         frontEnd: ['React', 'Tailwindcss', 'html'],
         versionControl: ['git'],
         communication: ['-'],
+      },
+    },
+    {
+      link: 'https://m-card.notion.site/m-card-9dd2915d88d84599913e9320767c169b',
+      linkName: '기획 중인 프로젝트',
+      text: `새로운 기술들을 사용해 보고자 프로젝트를 진행하려 현재 기획 중에 있습니다.
+      아직 개발을 시작하진 못했지만 기술 발전을 위해 노력하고 있다는 것을 보여드리고 싶어 첨부했습니다.
+      `,
+      images: ['card-1.png'],
+      skills: {
+        frontEnd: ['-'],
+        versionControl: ['git'],
+        communication: ['Notion'],
       },
     },
   ],
