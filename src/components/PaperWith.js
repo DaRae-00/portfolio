@@ -15,7 +15,7 @@ function SkillComp({ title, skills }) {
         <AiOutlinePushpin />
         <div className="-mt-1 ml-3">{title}</div>
       </div>
-      <div className="flex text-xl ml-9 mt-1">
+      <div className="flex flex-wrap ml-9 mt-1 text-sm sm:text-xl">
         {skills.map((s, i) => (
           <div key={`skill-${i}`}>
             {i === 0 ? '' : ', '}
