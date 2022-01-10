@@ -25,7 +25,13 @@ const story = {
       대표 기술로는 Vuejs와 Vuex를 사용하고 있고, 많은 데이터를 사용자가 보기 편하게 개발하는 것을 최우선의 과제로 두고 개발하고 있습니다.
       Vue를 다루지 못하는 퍼블리셔에게 개발환경을 세팅해주며 합께 작업을 해나가야 했기에 웹퍼브리셔와 협업을 잘 하는 것에 대해 많은 고민을 했었습니다. 
       `,
-      images: ['tintec-main.png', 'tintec-1.png', 'tintec-2.png'],
+      images: [
+        'tintec-main.png',
+        'tintec-1.png',
+        'tintec-2.png',
+        'tintec-3.png',
+        'tintec-4.png',
+      ],
       skills: {
         frontEnd: ['Vue', 'Vuex', 'Html', 'Css', 'Javascript'],
         versionControl: ['Git', 'Azure'],
@@ -42,7 +48,7 @@ const story = {
       `,
       images: ['pibo-main.png', 'pibo-1.png', 'pibo-2.png'],
       skills: {
-        frontEnd: ['React', 'context api', 'Html', 'Css', 'Javascript'],
+        frontEnd: ['React', 'Redux', 'Html', 'Css', 'Javascript'],
         versionControl: ['Git', 'Github', 'Gitlab'],
         communication: ['Slack', 'Notion', 'Jira'],
       },
@@ -60,16 +66,26 @@ const story = {
       },
     },
     {
+      link: 'https://dev-invitation-front-react.vercel.app/',
+      linkName: 'invitation card 프로젝트',
+      text: `새로운 기술들을 사용해 보고자 프로젝트를 진행하려 현재 진행 중에 있습니다.
+      기술 발전을 위해 노력하고 있다는 것을 보여드리고 싶어 첨부했습니다.`,
+      images: ['card-vercel-1.png'],
+      skills: {
+        frontEnd: ['next', 'typescript', 'Tailwindcss'],
+        versionControl: ['git'],
+        communication: ['Notion'],
+      },
+    },
+    {
       link: 'https://m-card.notion.site/m-card-9dd2915d88d84599913e9320767c169b',
-      linkName: '기획 중인 프로젝트',
-      text: `새로운 기술들을 사용해 보고자 프로젝트를 진행하려 현재 기획 중에 있습니다.
-      아직 개발을 시작하진 못했지만 기술 발전을 위해 노력하고 있다는 것을 보여드리고 싶어 첨부했습니다.
-      `,
-      images: ['card-1.png'],
+      linkName: '기획안',
+      text: '기획을 짜고 공유하고 있는 노션 페이지 입니다.',
+      images: ['card-1.png', 'card-2.png', 'card-3.png'],
       skills: {
         frontEnd: ['-'],
         versionControl: ['git'],
-        communication: ['Notion'],
+        communication: ['Notion', 'figma'],
       },
     },
   ],

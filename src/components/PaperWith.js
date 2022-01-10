@@ -90,7 +90,11 @@ function ImagesComp({ textObject }) {
       >
         {textObject.images.map((image, idx) => (
           <SwiperSlide key={`slide-${idx}`}>
-            <img src={getImageURI(image)} alt={`slide-${idx}`} />
+            <img
+              src={`/images/${image}`}
+              alt={`slide-${idx}`}
+              style={{ height: '550px' }}
+            />
           </SwiperSlide>
         ))}
       </Swiper>
